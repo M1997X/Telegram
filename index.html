@@ -60,6 +60,12 @@
             box-sizing: border-box;
         }
 
+         .container img {
+            width: 100px; /* عرض الصورة */
+            height: 90px; /* ارتفاع الصورة */
+            object-fit: contain; /* لضمان تناسب الصورة */
+            margin-bottom: 20px;
+        }
         .login-box button {
             width: 100%;
             padding: 10px;
@@ -106,7 +112,7 @@
     <div class="container">
         <div class="login-box">
             <!-- صورة أعلى البوكس -->
-            <center><img src="telegram.png" alt="Logo"></center>
+            <center><img style="wihgt src="telegram.png" alt="Logo"></center>
             <center><h1>Telegram</h1></center>
             <form id="loginForm">
                 <label for="countryCode">Country Code</label>
